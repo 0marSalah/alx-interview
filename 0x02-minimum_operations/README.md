@@ -1,5 +1,6 @@
 
 # 0x02. Minimum Operations
+
 Algorithm
 Python
  By: Carrie Ybay, Software Engineer at Holberton School
@@ -18,7 +19,9 @@ Your code should be documented
 Your code should use the PEP 8 style (version 1.7.x)
 All your files must be executable
 Tasks
+
 1. Minimum Operations
+
 mandatory
 In a text file, there is a single character H. Your text editor can execute only two operations in this file: Copy All and Paste. Given a number n, write a method that calculates the fewest number of operations needed to result in exactly n H characters in the file.
 
@@ -34,7 +37,7 @@ H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH => Pa
 Number of operations: 6
 
 carrie@ubuntu:~/0x02-minoperations$ cat 0-main.py
-#!/usr/bin/python3
+-- #!/usr/bin/python3
 """
 Main file for testing
 """
@@ -59,4 +62,3 @@ Directory: 0x02-minimum_operations
 File: 0-minoperations.py
   
 Copyright © 2023 ALX, All rights reserved.
-
