@@ -46,7 +46,7 @@ def run():
             line_num += 1
             if line_num % 10 == 0:
                 print_stats(total_file_size, status_codes_stats)
-    except (KeyboardInterrupt):
+    except (KeyboardInterrupt, EOFError, SystemExit):
         print_stats(total_file_size, status_codes_stats)
 
 
